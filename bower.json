@@ -1,0 +1,29 @@
+{
+  "name": "smart-obj",
+  "description": "description of smart-obj",
+  "main": [
+    "dist/dist.js"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/*",
+    "!dist/**/*",
+    "!src/**/*",
+    "!CHANGELOG",
+    "!README.md",
+    "!bower.json"
+  ],
+  "keywords": [],
+  "authors": [],
+  "homepage": "https://github.com/D-Mobilelab/smart-obj",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/D-Mobilelab/smart-obj.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "private": false
+}
