@@ -56,6 +56,24 @@ var SmartObj = function(defaultSetter, valueChecker){
         return toReturn;
     }
 
+    this.iter = function(){
+        return new (function SmartObjIterator(){
+            var keys = [];
+            for (var key in obj){
+                keys.push(key);
+            }
+
+            this.hasNext = function(){
+                return keys.length > 0;
+            }
+
+            this.next = function(){
+                return keys.shift();
+            }
+
+        })();
+    }
+
 }
 
 module.exports = SmartObj;
