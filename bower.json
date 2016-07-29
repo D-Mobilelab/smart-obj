@@ -1,6 +1,6 @@
 {
   "name": "smart-obj",
-  "description": "description of smart-obj",
+  "description": "Custom object that lets you define default values and value checkers.",
   "main": [
     "dist/dist.js"
   ],
@@ -16,8 +16,13 @@
     "!README.md",
     "!bower.json"
   ],
-  "keywords": [],
-  "authors": [],
+  "keywords": [
+    "javascript",
+    "smart-object"
+  ],
+  "authors": [
+    { "name": "Fabio Fognani", "email": "fabio.fognani@buongiorno.com" }
+  ],
   "homepage": "https://github.com/D-Mobilelab/smart-obj",
   "repository": {
     "type": "git",

@@ -1,6 +1,34 @@
 # smart-obj
 
+[![Build Status](https://travis-ci.org/D-Mobilelab/smart-obj.svg?branch=master&v=2)](https://travis-ci.org/D-Mobilelab/smart-obj)
+[![Coverage Status](https://coveralls.io/repos/github/D-Mobilelab/smart-obj/badge.svg?branch=master&v=1)](https://coveralls.io/github/D-Mobilelab/smart-obj?branch=master)
+[![npm version](https://badge.fury.io/js/smart-obj.svg)](https://badge.fury.io/js/smart-obj)
+[![Bower version](https://badge.fury.io/bo/smart-obj.svg)](https://badge.fury.io/bo/smart-obj)
+[![GitHub version](https://badge.fury.io/gh/D-Mobilelab%2Fsmart-obj.svg)](https://badge.fury.io/gh/D-Mobilelab%2Fsmart-obj)
+
 SmartObj is a custom object that lets you define default values and value checkers.
+
+## Installation
+
+### NPM
+```
+npm install --save smart-obj
+```
+You can found the library ready for production on <i>node_modules/smart-obj/dist/dist.js</i>
+
+### Bower
+```
+bower install --save smart-obj
+```
+You can found the library ready for production on <i>bower_components/smart-obj/dist/dist.js</i>
+
+## Documentation
+
+To read documentation, go to:
+
+[http://d-mobilelab.github.io/smart-obj/1.0.0](http://d-mobilelab.github.io/smart-obj/1.0.0)
+
+Replace <i>1.0.0</i> with the version of the documentation you want to read.
 
 ## Default getters
 

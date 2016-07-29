@@ -14,16 +14,16 @@ var SmartObj = function(defaultSetter, valueChecker){
         var defaultConstant = defaultSetter;
         defaultSetter = function(){
             return defaultConstant;
-        }
+        };
     }
 
     // if no valueChecker is specified, accept any value
     if (typeof valueChecker === 'undefined'){
         valueChecker = function acceptAny(value){
             return true;
-        }
+        };
     } else if (typeof defaultSetter !== 'function'){
-        throw 'SmartObj :: valueChecker must be a function, got ' + typeof defaultSetter;
+        throw new Error('SmartObj :: valueChecker must be a function, got ' + typeof defaultSetter);
     }
 
     var obj = {};
@@ -34,14 +34,14 @@ var SmartObj = function(defaultSetter, valueChecker){
         }
 
         return obj[key];
-    }
+    };
 
     this.set = function(key, value){
         var checkResult = valueChecker(value);
         if (!!checkResult){
             obj[key] = value;
         }
-    }
+    };
 
     this.asPOJO = function(){
         var toReturn = {};
@@ -54,10 +54,10 @@ var SmartObj = function(defaultSetter, valueChecker){
         }
 
         return toReturn;
-    }
+    };
 
     this.iter = function(){
-        return new (function SmartObjIterator(){
+        return new function SmartObjIterator(){
             var keys = [];
             for (var key in obj){
                 keys.push(key);
@@ -65,15 +65,15 @@ var SmartObj = function(defaultSetter, valueChecker){
 
             this.hasNext = function(){
                 return keys.length > 0;
-            }
+            };
 
             this.next = function(){
                 return keys.shift();
-            }
+            };
 
-        })();
-    }
+        }();
+    };
 
-}
+};
 
 module.exports = SmartObj;
