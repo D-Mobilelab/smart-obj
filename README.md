@@ -6,7 +6,7 @@
 [![Bower version](https://badge.fury.io/bo/smart-obj.svg)](https://badge.fury.io/bo/smart-obj)
 [![GitHub version](https://badge.fury.io/gh/D-Mobilelab%2Fsmart-obj.svg)](https://badge.fury.io/gh/D-Mobilelab%2Fsmart-obj)
 
-SmartObj is a custom object that lets you define default values and value checkers.
+SmartObj is a custom object that lets you define default values and value checkers. 
 
 ## Installation
 
