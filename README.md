@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/D-Mobilelab/smart-obj/badge.svg?branch=master&v=1)](https://coveralls.io/github/D-Mobilelab/smart-obj?branch=master)
 [![npm version](https://badge.fury.io/js/smart-obj.svg)](https://badge.fury.io/js/smart-obj)
 [![Bower version](https://badge.fury.io/bo/smart-obj.svg)](https://badge.fury.io/bo/smart-obj)
-[![GitHub version](https://badge.fury.io/gh/D-Mobilelab%2Fsmart-obj.svg)](https://badge.fury.io/gh/D-Mobilelab%2Fsmart-obj)
+[![GitHub version](https://badge.fury.io/gh/D-Mobilelab%2Fsmart-obj.svg)](https://badge.fury.io/gh/D-Mobilelab%2Fsmart-obj) [![Greenkeeper badge](https://badges.greenkeeper.io/D-Mobilelab/smart-obj.svg)](https://greenkeeper.io/)
 
 SmartObj is a custom object that lets you define default values and value checkers. 
 
