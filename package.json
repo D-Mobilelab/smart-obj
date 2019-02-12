@@ -1,6 +1,6 @@
 {
   "name": "smart-obj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom object that lets you define default values and value checkers.",
   "keywords": [
     "javascript",
