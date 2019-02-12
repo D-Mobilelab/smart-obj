@@ -1,5 +1,7 @@
 # smart-obj
 
+## [!!!] This repository has been deprecated
+
 [![Build Status](https://travis-ci.org/D-Mobilelab/smart-obj.svg?branch=master&v=2)](https://travis-ci.org/D-Mobilelab/smart-obj)
 [![Coverage Status](https://coveralls.io/repos/github/D-Mobilelab/smart-obj/badge.svg?branch=master&v=1)](https://coveralls.io/github/D-Mobilelab/smart-obj?branch=master)
 [![npm version](https://badge.fury.io/js/smart-obj.svg)](https://badge.fury.io/js/smart-obj)
